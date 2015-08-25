@@ -130,7 +130,7 @@ SELECT * FROM servers ORDER BY Update_time DESC LIMIT 100
 >>日付を昇順で抽出するか降順で抽出するか
 
 ###servers/stream
-これから送信されるデータをストリームで流す。  
+新しく受信したデータをストリームで流す。  
 環境のせいかもしれませんが、ruby1.9.3では動作しませんでした。
 
 ##Utilities
